@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>Mars Rover Kata!</title>
+	
+	<style type="text/css">
+	.options{
+		float:right;
+	}
+	#content {
+		width: 950px;
+		margin: auto;
+	}
+
+	#messages {
+		font-family: monospace;
+		overflow: auto;
+		max-height: 300px;
+		padding: 10px;
+	}
+	</style>
+</head>
+<body>
+	<div id="content">
+	<h1>Mars Rover experiment</h1>
+	<canvas id="a" width="501" height="501"></canvas>
+	<div class="options">
+		<p>Click on the grid to add Obstacles</p>
+		<p>Use the arrow keys to move the rover</p>
+		<ul>
+			<li> &#8593; : Move forward</li>
+			<li> &#8595; : Move back</li>
+			<li> &#8594; : Turn right</li>
+			<li> &#8592; : Turn left</li>
+		</ul>
+
+		<div id="messages">
+		
+		</div>
+	</div>
+
+	
+</div>
+<script type="text/javascript" src="rover.js"></script>	
+</body>
+</html>
